@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Nanum+Gothic&display=swap');
+ 
+html, body {
+     margin: 0;
+     scroll-behavior: smooth;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul {
+     list-style: none;
+ }
+ 
+ section {
+     min-height:80vh;
+     margin-left: 20%;
+ }
+
+ .content_top {
+     top: 28vh;
+ }
+
+ .content-padding {
+     position: relative;
+     padding: 5vw 5vw 0 1vw
+ }
+ .main {
+     font-family: 'Raleway', sans-serif;
+     line-height: 1.5rem;
+     color: rgb(70,70,70);
+     font-size:20;
+     margin: 0 -50 0 20;
+
+ }
+
+ .about-main {
+     font-family: 'raleway', sans-serif;
+     font-size: 20;
+     margin: 10 10 0 20
+ }
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+.main-title {
+    font-size: 60;
+    margin: 200 10 10 15;
+}
+.section-title {
+    font-size: 3rem;
+    margin: 10 0 10 10;
+}
+.main-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35;
+    margin: 50 10 10 20;
+}
+.item-wrapper {
+    display: flex;
+    margin-bottom: 7vh
+}
+.item {
+    width: 70%;
+    display: block;
+}
+.item-right {
+    width: 30%;
+    display: block;
+    color: black;
+    margin-right: 50;
+}
+.item-title {
+    font-size: 25;
+}
+.item-subtitle {
+    margin-top: 10;
+    color: grey;  
+    margin-left: 10;
+    margin-bottom: 10;
+}
+.right {
+    margin: 0 0 0 50;
+    font-size: 25;
+}
+/* Navigation -------------------------------- */
+.nav {
+    width: 18%;
+    height: 100%;
+    background-color: black;
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.nav a {
+    color: rgb(150, 150,150);
+    font-family: 'Segoe UI', 'sans_serif';
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    margin-right: 40px;
+}
+.nav a:hover {
+    color: rgb(228, 228, 228 );
+}
+.nav a:active, .nav a:focus-within {
+    color: rgb(250, 250, 250);
+}
+
+.rounded-img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid rgba(255, 255, 255, 0.233)
+}
+/* About ------------------------------------- */
+/* Experience -------------------------------- */
+/* Education --------------------------------- */
+/* Skills ------------------------------------ */
+.skill-icons {
+    display: flex;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
+.icons {
+    display: block;
+    position: relative;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.skill-icon {
+    font-size: 3.5rem;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* Interests --------------------------------- */
+
+/* Awards ------------------------------------ */
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list-item {
+    margin-left: 10px;
+}
+.indent {
+    display: inline-block;
+    margin: 10 0 0 10px;
+}
+.grey {
+    color: #5f616dbe;
+}
+/* Responsive design medie Queries----------------------- */
+/* Nav menu collapse------------------------------------- */
+@media screen and (max-width: 1080px) {
+    .navbar-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+    }
+.display-picture {
+    display: none;
+}
+.nav {
+    width: 100%;
+    height: 180px;
+    margin-top: -200px;
+    z-index: 20;
+    margin-left: -25;
+}
+.nav a {
+    padding: 3
+}
+.interests-main {
+    margin-right: 20;
+}
+
+}
+/* Navigation-------------------------------------------- */
